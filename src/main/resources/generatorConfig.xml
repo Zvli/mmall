@@ -12,11 +12,15 @@
 
     <context id="default" targetRuntime="MyBatis3">
 
+        <!--<plugin type="org.mybatis.generator.osd.mybatis3.plugin.CriteriaPackageRenamePlugin" >-->
+            <!--<property name="targetPackage" value="com.mmall.dao" />-->
+        <!--</plugin>-->
         <!-- optional，旨在创建class时，对注释进行控制 -->
         <commentGenerator>
             <property name="suppressDate" value="true"/>
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
+
 
         <!--jdbc的数据库连接 -->
         <jdbcConnection
